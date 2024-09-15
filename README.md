@@ -17,4 +17,8 @@ npm run dev
 
 ### [React Router](https://reactrouter.com/en/main)
 
+```
+npm install react-router-dom
+```
+
 ### [React Icons](https://react-icons.github.io/react-icons/)
