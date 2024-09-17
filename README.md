@@ -30,16 +30,16 @@ const router = createBrowserRouter([
     element: <MainLayout />,
     errorElement: <ErrorPage />,
     children: [
-        {
-            index: true,
-            element: <Home />,
-        },
-        {
-            path: '/about,
-            element: <About />,
-            loader: () => fetch('https://jsonplaceholder.typicode.com/users'),
-        }
-    ]
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+        loader: () => fetch("https://jsonplaceholder.typicode.com/users"),
+      },
+    ],
   },
 ]);
 
