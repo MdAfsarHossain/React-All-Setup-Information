@@ -51,4 +51,19 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ```
 
+```js
+import { useLoaderData } from "react-router-dom";
+
+const About = () => {
+  const data = useLoaderData();
+  return (
+    <div>
+      <h1>Data Length: {data.length}</h1>
+    </div>
+  );
+};
+
+export default About;
+```
+
 ### [React Icons](https://react-icons.github.io/react-icons/)
