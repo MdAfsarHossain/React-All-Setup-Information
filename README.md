@@ -16,6 +16,8 @@ npm i
 npm run dev
 ```
 
+### [Tailwind](https://tailwindcss.com/docs/installation)
+
 ### [React Router](https://reactrouter.com/en/main)
 
 ```
