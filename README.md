@@ -18,6 +18,10 @@ npm run dev
 
 ### [Tailwind](https://tailwindcss.com/docs/installation)
 
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
 ### [React Router](https://reactrouter.com/en/main)
 
 ```
