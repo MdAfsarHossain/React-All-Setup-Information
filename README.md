@@ -26,6 +26,15 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
+#### Add the paths to `tailwind.config.js` file.
+
+```js
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+```
+
 ### [React Router](https://reactrouter.com/en/main)
 
 ```
