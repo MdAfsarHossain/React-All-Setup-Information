@@ -35,6 +35,14 @@ npx tailwindcss init -p
   ],
 ```
 
+#### Add the Tailwind directives in `index.css` file
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 ### [React Router](https://reactrouter.com/en/main)
 
 ```
