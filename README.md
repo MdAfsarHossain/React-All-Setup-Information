@@ -43,6 +43,12 @@ npx tailwindcss init -p
 @tailwind utilities;
 ```
 
+### [Daisy UI](https://daisyui.com/docs/install/)
+
+```
+npm i -D daisyui@latest
+```
+
 ### [React Router](https://reactrouter.com/en/main)
 
 ```
